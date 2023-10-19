@@ -1,1 +1,1 @@
-# javaPS
+# javaProblemSolving
