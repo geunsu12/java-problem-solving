@@ -13,9 +13,8 @@ public class baseball {
 
         ArrayList<Integer> arrAnswer = new ArrayList<>(Arrays.asList(0,0,0));
         ArrayList<Integer> arrUser = new ArrayList<>(Arrays.asList(0,0,0));
-        System.out.println(arrAnswer);
+
         for(int i=2;i>=0;i--) {
-            System.out.println(i);
             arrAnswer.set(i,answer%10);
             answer /= 10;
         }
@@ -28,6 +27,7 @@ public class baseball {
                 arrUser.set(i,userAnswer%10);
                 userAnswer /=10;
             }
+            
             int strike = 0;
             int ball = 0;
 
