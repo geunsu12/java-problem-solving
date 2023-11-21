@@ -27,6 +27,6 @@ public class bj10798 {
             }
         }
         System.out.println(sb);
-    
+        
     }
 }

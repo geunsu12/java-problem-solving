@@ -1,6 +1,5 @@
 package BJ.review;
 
-import java.io.*;
 import java.util.*;
 
 public class bj3052 {
