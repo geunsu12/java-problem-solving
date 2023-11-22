@@ -1,7 +1,6 @@
 package BJ.review;
 
 import java.io.*;
-import java.util.*;
 
 public class bj10798 {
     public static void main(String[] args) throws IOException{
