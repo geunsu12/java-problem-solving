@@ -40,6 +40,7 @@ public class bj1005 {
         System.out.println(sb);
     }
 
+    // 위상 정렬 및 다이나믹 프로그래밍
     public static int[] sort(int[] times, boolean[][] graph, int[] link) {
         Queue<Integer> q = new LinkedList<>();
         int[] result = new int[link.length];
