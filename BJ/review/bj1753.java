@@ -5,7 +5,8 @@ import java.io.*;
 
 public class bj1753 {
     static int INF = 100_000_000;
-    public class Node {
+
+    static class Node {
         int idx;
         int cost;
 
@@ -35,7 +36,7 @@ public class bj1753 {
             int w = toInt(st.nextToken());
             graph.get(u).add(new Node(v,w));
         }
-        
+
         int[] dist = new int[V+1];
         for (int i=0;i<V+1;i++) {
             dist[i] = INF;
@@ -61,6 +62,7 @@ public class bj1753 {
             }
         }
     }
+    
 
     public static int toInt(String str) {
         return Integer.parseInt(str);

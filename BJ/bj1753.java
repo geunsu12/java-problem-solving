@@ -60,6 +60,10 @@ public class bj1753 {
                 }
             }
         }
+        for (int i=1;i<V+1;i++) {
+            if (dist[i] == INF) { System.out.println("INF"); }
+            else { System.out.println(dist[i]); }
+        }
     }
 
     public static int toInt(String str) {
