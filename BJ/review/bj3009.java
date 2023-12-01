@@ -28,6 +28,6 @@ public class bj3009 {
         } else {
             newY = y[1] == y[2] ? y[0]:y[1];
         }
-
+        System.out.println(newX + " " + newY);
     }
 }

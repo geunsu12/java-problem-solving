@@ -25,7 +25,8 @@ public class bj3009 {
         } else {
             newY = (y[0] == y[1] ? y[2]:y[1]);
         }
-
+        sc.close();
+        
         System.out.println(newX+" "+newY);
    
     }
