@@ -16,7 +16,7 @@ public class bj1043 {
         st = new StringTokenizer(br.readLine());
         n = Integer.parseInt(st.nextToken());
         m = Integer.parseInt(st.nextToken());
-
+        
         // 유니온 파인드 초기화 -> 현재 자기 자신을 가지고 있는다.
         parent = new int[n+1];
         for (int i=1;i<=n;i++) {
