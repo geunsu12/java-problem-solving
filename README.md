@@ -2,11 +2,6 @@
 
 
 <html>
-<head>
-<meta charset="UTF-8">
-<title>백준 문제 풀이 목록</title>
-</head>
-
 <body>
     <h2> 백준 문제 풀이 목록 </h2>
     <table>
