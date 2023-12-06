@@ -143,21 +143,33 @@
         </tr>
         <tr>
             <td align="center">23</td>
+            <td>11053</td>
+            <td><img src="https://img.shields.io/badge/Silver%202-silver?style=flat-square"></td>
+            <td>LIS</td>
+        </tr>
+        <tr>
+            <td align="center">24</td>
             <td>11723</td>
             <td><img src="https://img.shields.io/badge/Silver%205-silver?style=flat-square"></td>
             <td>구현, 비트마스크</td>
         </tr>
         <tr>
-            <td align="center">24</td>
+            <td align="center">25</td>
             <td>11725</td>
             <td><img src="https://img.shields.io/badge/Silver%202-silver?style=flat-square"></td>
             <td>BFS</td>
         </tr>
         <tr>
-            <td align="center">25</td>
+            <td align="center">26</td>
             <td>25501</td>
             <td><img src="https://img.shields.io/badge/Bonze%202-c2932a?style=flat-square"></td>
             <td>구현, 재귀</td>
+        </tr>
+        <tr>
+            <td align="center">27</td>
+            <td>1918</td>
+            <td><img src="https://img.shields.io/badge/Gold%202-gold?style=flat-square"></td>
+            <td>스택</td>
         </tr>
     </table>
 
