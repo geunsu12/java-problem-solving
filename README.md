@@ -26,7 +26,7 @@
             <td>2</td>
             <td>1018</td>
             <td><img src="https://img.shields.io/badge/Silver%205-silver?style=flat-square"></td>
-            <td>-</td>
+            <td>브루트 포스</td>
         </tr>        
         <tr>
             <td>3</td>
