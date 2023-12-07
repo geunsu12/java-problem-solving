@@ -133,7 +133,7 @@
             <td align="center">21</td>
             <td>10815</td>
             <td><img src="https://img.shields.io/badge/Silver%205-silver?style=flat-square"></td>
-            <td>이진 탐색</td>
+            <td>이분 탐색</td>
         </tr>
         <tr>
             <td align="center">22</td>
@@ -170,6 +170,18 @@
             <td>1918</td>
             <td><img src="https://img.shields.io/badge/Gold%202-gold?style=flat-square"></td>
             <td>스택</td>
+        </tr>
+        <tr>
+            <td align="center">28</td>
+            <td>11404</td>
+            <td><img src="https://img.shields.io/badge/Gold%204-gold?style=flat-square"></td>
+            <td>플루이드 와샬</td>
+        </tr>
+        <tr>
+            <td align="center">29</td>
+            <td>5639</td>
+            <td><img src="https://img.shields.io/badge/Gold%205-gold?style=flat-square"></td>
+            <td>이진탐색트리</td>
         </tr>
     </table>
 

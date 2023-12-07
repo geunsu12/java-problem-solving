@@ -12,7 +12,7 @@ public class bj11053 {
         StringTokenizer st = new StringTokenizer(br.readLine());
 
         int[] a = new int[n];
-        results = new int[n];
+        results = new int[n+1];
 
         for (int i=0;i<n;i++){
             a[i] = toInt(st.nextToken());
@@ -23,10 +23,18 @@ public class bj11053 {
         
         for (int i=1;i<n;i++) {
             if (results[idx] < a[i]) {
-                results[idx++] = a[i];
+                idx++;
+                results[idx] = a[i];
             }
-            else if (results[idx] == a[i]) {
+            else {
                 int tmpIdx = binarySearch(0,idx,a[i]);
+                results[tmpIdx] = a[i];
+            }
+        }
+        for (int i=0;i<n+1;i++) {
+            if (results[i] == 0) {
+                System.out.println(i);
+                break;
             }
         }
     }
@@ -40,11 +48,10 @@ public class bj11053 {
         int mid = (st+end)/2;
 
         if (results[mid] < target) {
-            return binarySearch(mid,end,target);
+            return binarySearch(mid+1,end,target);
         }
         else {
             return binarySearch(st,mid,target);
         }
     }
-
 }
