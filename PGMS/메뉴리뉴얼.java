@@ -1,4 +1,4 @@
-package PG;
+package PGMS;
 
 import java.util.*;
 import java.util.Map.Entry;
